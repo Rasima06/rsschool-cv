@@ -1,0 +1,82 @@
+<style>
+  
+  html {
+    scroll-behavior: smooth; 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .round {
+    border-radius: 100px;
+    border: 3px solid rgb(196, 202, 209); 
+    box-shadow: 0 0 2px #666;
+  }
+
+  #code {
+    font-size:  15px;
+    color: rgb(238, 73, 23);
+    font-weight: 200;
+  }
+
+  body {
+    color: brown;
+    font-family: 'Quicksand', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding: 0 40px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: large;
+    color: brown;
+    font-weight: 700;
+  }
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .section {
+    width: 50%;
+  }
+
+  .footer {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(189, 105, 105);
+  }
+
+  #github {
+    font-size:  20px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+</style>
